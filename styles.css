@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+h1 {
+    font-family:'Bona Nova', serif;
+}
+
+.row {
+    text-align: center;
+}
+
+.card {
+    width: 80px;
+    height: 80px;
+    background-color: pink;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-sizing: border-box;
+    box-shadow:inset 0px 0px 0px 2px blueviolet;
+}
