@@ -8,14 +8,40 @@ h1 {
 }
 
 .card {
-    width: 80px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     background-color: pink;
     display: inline-block;
     cursor: pointer;
 }
 
+.front > img {
+    height:  120px;
+    width: 120px;
+}
+
 .card:hover {
     box-sizing: border-box;
     box-shadow:inset 0px 0px 0px 2px blueviolet;
+}
+
+html {
+    min-height: 80vh;
+}
+
+body {
+    margin: 0;
+    background-color: blueviolet;
+}
+
+.page-title {
+    text-align: center;
+    color: pink;
+    font-size: 4em;
+}
+
+.info {
+    color: pink;
+    font-size: 2em;
+    float:initial;
 }
