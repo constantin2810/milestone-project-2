@@ -3,20 +3,59 @@ h1 {
     font-family:'Bona Nova', serif;
 }
 
-.row {
-    text-align: center;
-}
 
 .card {
+    display: inline-block;
     width: 120px;
     height: 120px;
     background-color: pink;
-    display: inline-block;
-    cursor: pointer;
+}
+
+.card .front {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.card .visible .front {
+    transform:rotateY(-180deg);
+}
+
+.card .visible .back {
+    transform: rotateY(0);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 50px;
+}
+
+.game-info-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
 }
 
 .front > img {
     height:  120px;
+    width: 120px;
+}
+
+.back > img {
+    height: 120px;
     width: 120px;
 }
 
@@ -30,6 +69,7 @@ html {
 }
 
 body {
+    box-sizing: border-box;
     margin: 0;
     background-color: blueviolet;
 }
