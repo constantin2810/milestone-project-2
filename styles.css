@@ -1,33 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+
 h1 {
     font-family:'Bona Nova', serif;
 }
 
+/* this will style the card */
 
 .card {
     display: inline-block;
     width: 120px;
     height: 120px;
     background-color: pink;
+    transition: all 0.5s ease-in-out;
+    transform-style: preserve-3d;
 }
 
-.card .front {
+/* there I will style the front of the card */
+
+ .front {
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     backface-visibility: hidden;
-    transform: rotateY(180deg);
+    width: 120px;
+    height: 120px;
+    background: no-repeat center/cover;
+    }
+
+/* back of the card */
+
+.back {
+    background: no-repeat center/cover;
+    transform: rotateY(-180deg);
 }
 
-.card .visible .front {
-    transform:rotateY(-180deg);
+.card:hover{
+    cursor: pointer;
 }
 
-.card .visible .back {
+.card .front{
+    transform:rotateY(180deg);
+}
+
+.card .back {
     transform: rotateY(0);
 }
+
+
+
+.front-hidden {
+    display: none;
+}
+
+/* style the container */
 
 .container {
     display: grid;
@@ -49,13 +76,10 @@ h1 {
     justify-content: space-between;
 }
 
-.front > img {
-    height:  120px;
-    width: 120px;
-}
+/* there I will style the img to get the right dimension to fit inside the card */
 
-.back > img {
-    height: 120px;
+.front > img ,.back > img{
+    height:  120px;
     width: 120px;
 }
 
@@ -71,8 +95,10 @@ html {
 body {
     box-sizing: border-box;
     margin: 0;
-    background-color: blueviolet;
+    background-color:  blueviolet;
 }
+
+/* style the page-title */
 
 .page-title {
     text-align: center;
