@@ -6,7 +6,7 @@ document.querySelectorAll('.card').forEach(function(card){
 });
 
 function onCardClicked(e) {
-    const target = e.currentTarget;
+   const target = e.currentTarget;
    target.getElementsByClassName('back')[0].classList.add('hidden');
    target.getElementsByClassName('front')[0].classList.remove('hidden');
 
