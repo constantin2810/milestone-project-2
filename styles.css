@@ -33,7 +33,7 @@ h1 {
 
 .back {
     background: no-repeat center/cover;
-    transform: rotateY(-180deg);
+    /* transform: rotateY(-180deg); */
 }
 
 .card:hover{
@@ -41,7 +41,7 @@ h1 {
 }
 
 .card .front{
-    transform:rotateY(180deg);
+   /* transform:rotateY(180deg); */
 }
 
 .card .back {
@@ -50,7 +50,7 @@ h1 {
 
 
 
-.front-hidden {
+.hidden {
     display: none;
 }
 
