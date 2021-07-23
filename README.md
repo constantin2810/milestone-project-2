@@ -10,27 +10,28 @@
 
 ## **About**
 
-This is the main website for my "Milestone Project 2". It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential students and partners.
-  I created a simple memory game using HTML5, CSS3, and Javascript. Users will be able to reveal some images and memorize the location of the picture. 
-  The purpose of this game is to reveal all the same images.
+-   ### This is the main website for my "Milestone Project 2".
+  1. It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential students and partners.
+  2. I created a simple memory game using HTML5, CSS3, and Javascript. Users will be able to reveal some images and memorize the location of the picture. 
+  3. The purpose of this game is to reveal all the same images.
 
-  Here is the list of the requirements for my code.
-     -I have had a statistic game that will display a number of image clicks.
-     -I used 8 different unique images with a total of 16 images. Each of a unique image will be duplicated. That's why 8 x 2 = 16 images. 
-     -My statistic game will display a number of image clicks .
-     -When creating the game, I considered that users can easily access it from a mobile, a tablet or laptop, therefore to view of the game will be automatically resized accordingly.
+ -   #### Here is the list of the requirements for my code.
+     - I have had a statistic game that will display a number of image clicks.
+     - I used 8 different unique images with a total of 16 images. Each of a unique image will be duplicated. That's why 8 x 2 = 16 images. 
+     - My statistic game will display a number of image clicks .
+     - When creating the game, I considered that users can easily access it from a mobile, a tablet or laptop, therefore to view of the game will be automatically resized accordingly.
 
-  Here is the list of the game logic.
-     -In the game canvas, there will be two layers available. The first layer will contain images covered by the top layer.The top layer will have other images to cover the first ones to be displayed or revealed.
-     -I will create an array of 16 images slots which will contain 8 unique images and a copy of another 8 duplicated images. Once created, will shuffle the 16 images, so every time the game is loaded, they are randomly placed.
-     -Users will be able to reveal the image by clicking the image cover. Users can click two images at a time. If both images do not match, then they will be closed again otherwise, if they do match, they will stay open. I used CSS to flip the image open and close.
-     -I created the statistic game which will display a number of image clicks and number of correct guesses.
-     -When users have revealed all images, will by then display a message box to congrats users. After that, users will be able to restart the game again. By default, will hide this message.
+  -   #### Here is the list of the game logic.
+     - In the game canvas, there will be two layers available. The first layer will contain images covered by the top layer.The top layer will have other images to cover the first ones to be displayed or revealed.
+     - I will create an array of 16 images slots which will contain 8 unique images and a copy of another 8 duplicated images. Once created, will shuffle the 16 images, so every time the game is loaded, they are randomly placed.
+     - Users will be able to reveal the image by clicking the image cover. Users can click two images at a time. If both images do not match, then they will be closed again otherwise, if they do match, they will stay open. I used CSS to flip the image open and close.
+     - I created the statistic game which will display a number of image clicks and number of correct guesses.
+     - When users have revealed all images, will by then display a message box to congrats users. After that, users will be able to restart the game again. By default, will hide this message.
 
 
- I have been inspired by this websites : 
-     https://www.freememorygame.com/?dn=Card%20Game;
-     https://www.memozor.com/memory-games/for-adults/deck-of-cards
+- ### I have been inspired by this websites : 
+     - https://www.freememorygame.com/?dn=Card%20Game;
+     - https://www.memozor.com/memory-games/for-adults/deck-of-cards
 
 <h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2> 
 
