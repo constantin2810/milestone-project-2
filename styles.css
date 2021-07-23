@@ -76,7 +76,7 @@ h1 {
 
 .game-info {
     font-family: inherit;
-    color: pink;
+    color: purple;
     font-size: 2em;
 }
 
@@ -108,14 +108,18 @@ html {
 body {
     box-sizing: border-box;
     margin: 0;
-    background-color:  blueviolet;
+    background-image: url(images/castle1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
 /* style the page-title */
 
 .page-title {
     text-align: center;
-    color: pink;
+    color: purple;
     font-size: 4em;
 }
 
