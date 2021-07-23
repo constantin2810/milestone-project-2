@@ -24,11 +24,11 @@
 
  -   #### Here is the list of the game logic.
 
-         - In the game canvas, there will be two layers available. The first layer will contain images covered by the top layer.The top layer will have other images to cover the first ones to be displayed or revealed.
-         - I will create an array of 16 images slots which will contain 8 unique images and a copy of another 8 duplicated images. Once created, will shuffle the 16 images, so every time the game is loaded, they are randomly placed.
-         - Users will be able to reveal the image by clicking the image cover. Users can click two images at a time. If both images do not match, then they will be closed again otherwise, if they do match, they will stay open. I used CSS to flip the image open and close.
-         - I created the statistic game which will display a number of image clicks and number of correct guesses.
-         - When users have revealed all images, will by then display a message box to congrats users. After that, users will be able to restart the game again. By default, will hide this message.
+        - In the game canvas, there will be two layers available. The first layer will contain images covered by the top layer.The top layer will have other images to cover the first ones to be displayed or revealed.
+        - I will create an array of 16 images slots which will contain 8 unique images and a copy of another 8 duplicated images. Once created, will shuffle the 16 images, so every time the game is loaded, they are randomly placed.
+        - Users will be able to reveal the image by clicking the image cover. Users can click two images at a time. If both images do not match, then they will be closed again otherwise, if they do match, they will stay open. I used CSS to flip the image open and close.
+        - I created the statistic game which will display a number of image clicks and number of correct guesses.
+        - When users have revealed all images, will by then display a message box to congrats users. After that, users will be able to restart the game again. By default, will hide this message.
 
 
 - ### I have been inspired by this websites : 
