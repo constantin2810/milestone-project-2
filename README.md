@@ -15,14 +15,14 @@
   2. I created a simple memory game using HTML5, CSS3, and Javascript. Users will be able to reveal some images and memorize the location of the picture. 
   3. The purpose of this game is to reveal all the same images.
 
-    -   #### Here is the list of the requirements for my code.
+ -   #### Here is the list of the requirements for my code.
 
-         - I have had a statistic game that will display a number of image clicks.
-         - I used 8 different unique images with a total of 16 images. Each of a unique image will be duplicated. That's why 8 x 2 = 16 images. 
-         - My statistic game will display a number of image clicks .
-         - When creating the game, I considered that users can easily access it from a mobile, a tablet or laptop, therefore to view of the game will be automatically resized accordingly.
+        - I have had a statistic game that will display a number of image clicks.
+        - I used 8 different unique images with a total of 16 images. Each of a unique image will be duplicated. That's why 8 x 2 = 16 images. 
+        - My statistic game will display a number of image clicks .
+        - When creating the game, I considered that users can easily access it from a mobile, a tablet or laptop, therefore to view of the game will be automatically resized accordingly.
 
-    -   #### Here is the list of the game logic.
+ -   #### Here is the list of the game logic.
 
          - In the game canvas, there will be two layers available. The first layer will contain images covered by the top layer.The top layer will have other images to cover the first ones to be displayed or revealed.
          - I will create an array of 16 images slots which will contain 8 unique images and a copy of another 8 duplicated images. Once created, will shuffle the 16 images, so every time the game is loaded, they are randomly placed.
