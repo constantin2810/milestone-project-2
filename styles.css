@@ -4,6 +4,17 @@ h1 {
     font-family:'Bona Nova', serif;
 }
 
+.overlay-text {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: purple;
+}
+
 /* this will style the card */
 
 .card {
