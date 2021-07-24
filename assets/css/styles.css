@@ -5,14 +5,14 @@ h1 {
 }
 
 .overlay-text {
-    position: fixed;
+    position: unset;
     display: none;
     justify-content: center;
     color: blueviolet;
-    top: 120px;
+    top: 140px;
     left: 0;
     right: 0;
-    bottom: 500px;
+    bottom: 600px;
     z-index: 100;
 }
 
