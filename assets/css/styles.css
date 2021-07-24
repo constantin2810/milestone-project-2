@@ -9,10 +9,10 @@ h1 {
     display: none;
     justify-content: center;
     color: blueviolet;
-    top: 140;
+    top: 120px;
     left: 0;
     right: 0;
-    bottom: 600;
+    bottom: 500px;
     z-index: 100;
 }
 
@@ -155,5 +155,11 @@ body {
         flex-direction: column;
         align-items: center;
     }
+}
+
+footer {
+    text-align: end;
+    color: blueviolet;
+    position: relative;
 }
 

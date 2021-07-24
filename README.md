@@ -60,7 +60,7 @@
 
 -   ### Design
     -   #### Colour Scheme
-        -   The main colours used are blue and pink.
+        -   The main colours used are blue-blueviolet and pink.
     -   #### Typography
         -   The 'Bona Nova', serif font is the main font used throughout the whole website.
     -   #### Imagery

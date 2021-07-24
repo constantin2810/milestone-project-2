@@ -5,15 +5,15 @@ h1 {
 }
 
 .overlay-text {
-    position: fixed;
+    position: sticky;
     display: none;
     justify-content: center;
     color: blueviolet;
-    top: 140;
+    top: 120px;
     left: 0;
     right: 0;
-    bottom: 600;
-    z-index: 100;
+    bottom: 500px;
+    
 }
 
 .overlay-text.visible {
