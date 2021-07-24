@@ -9,7 +9,7 @@ var time;
 var isTimerOn = false;
 
 
-document.getElementById('start-game')addEventListener('click',startMe);
+document.getElementById('start-game').addEventListener('click',startMe);
 
 function shuffle(array) {
     var currentIndex = array.length, randomIndex;
@@ -29,8 +29,7 @@ function shuffle(array) {
     return array;
 }
 
- //document.querySelectorAll('.card').forEach(function(card){
- //   card.addEventListener('click',onCardClicked);});
+ 
 function checkForMatch(card1, card2){
     let card1Name = card1.getAttribute('data-card-name');
     let card2Name = card2.getAttribute('data-card-name');
