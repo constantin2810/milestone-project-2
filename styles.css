@@ -4,17 +4,38 @@ h1 {
     font-family:'Bona Nova', serif;
 }
 
+.button {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 6px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
 .overlay-text {
     position: fixed;
-    top: 0;
+    display: none;
+    justify-content: center;
+    color: blueviolet;
+    top: 140;
     left: 0;
     right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    color: purple;
+    bottom: 580;
+    z-index: 100;
 }
 
+.overlay-text.visible {
+    display: flex;
+}
+
+
+  
 /* this will style the card */
 
 .card {
