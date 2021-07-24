@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+
+h1 {
+    font-family:'Bona Nova', serif;
+}
+
+.overlay-text {
+    position: fixed;
+    display: none;
+    justify-content: center;
+    color: blueviolet;
+    top: 140;
+    left: 0;
+    right: 0;
+    bottom: 600;
+    z-index: 100;
+}
+
+.overlay-text.visible {
+    display: flex;
+}
+
+
+  
+/* this will style the card */
+
+.card {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: pink;
+    transition: all 0.5s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+/* there I will style the front of the card */
+
+ .front {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    backface-visibility: hidden;
+    width: 120px;
+    height: 120px;
+    background: no-repeat center/cover;
+    }
+
+/* back of the card */
+
+.back {
+    background: no-repeat center/cover;
+    /* transform: rotateY(-180deg); */
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+
+
+.card .back {
+    transform: rotateY(0);
+}
+
+
+
+.hidden {
+    display: none;
+}
+
+/* style the container */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 50px;
+}
+
+.game-info-container {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.game-info {
+    font-family: inherit;
+    color: purple;
+    font-size: 2em;
+}
+
+/* there I will style the img to get the right dimension to fit inside the card */
+
+.front > img ,.back > img{
+    height:  120px;
+    width: 120px;
+}
+
+.card.done{
+    cursor: default;
+}
+
+.card.done:hover{
+    cursor: default;
+    box-shadow: none;
+}
+
+.card:hover {
+    box-sizing: border-box;
+    box-shadow:inset 0px 0px 0px 2px blueviolet;
+}
+
+html {
+    min-height: 80vh;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    background-image: url(images/castle1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* style the page-title */
+
+.page-title {
+    text-align: center;
+    color: purple;
+    font-size: 4em;
+}
+
+.info {
+    color: pink;
+    font-size: 2em;
+    float:initial;
+}
+
+@media (max-width: 600px) {
+    .game-container {
+        grid-template-columns: repeat(2,auto);
+    }
+    .game-info-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

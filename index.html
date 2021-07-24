@@ -27,7 +27,7 @@
     <h1 class="page-title">Match the Dolls</h1>
 
     <div class="overlay-text visible">
-        <input type="button" value="START GAME" />
+        <input type="button" value="START GAME" id="start-game" />
         
         </div>
 
@@ -49,154 +49,155 @@
                 Moves:<span id="moves">0</span>
             </div>
         </div>
+        <div id="game-board" class="game-container">
+            <!-- I make a div with a class card -->
 
-    <!-- I make a div with a class card -->
-
-        <div class="card" data-card-name="cinderela">
-            <div class="front hidden">
-                <!-- here will be added images for front card -->
-                <img src="images/Cinderela.png"/>
+            <div class="card" data-card-name="cinderela">
+                <div class="front hidden">
+                    <!-- here will be added images for front card -->
+                    <img src="images/Cinderela.png"/>
+                    </div>
+                <div class="back">
+                    <!-- here will be added images for back of the card -->
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
                 </div>
-            <div class="back">
-                <!-- here will be added images for back of the card -->
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
             </div>
-        </div>
-       
+        
 
-        <div class="card" data-card-name="ariel">
-            <div class="front hidden">
-                <img src="images/Princess Ariel.png"/>
+            <div class="card" data-card-name="ariel">
+                <div class="front hidden">
+                    <img src="images/Princess Ariel.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="belle">
-            <div class="front hidden">
-                <img src="images/Princess Belle.jpg"/>
+            <div class="card" data-card-name="belle">
+                <div class="front hidden">
+                    <img src="images/Princess Belle.jpg"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div> 
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div> 
-        </div>
 
-        <div class="card" data-card-name="aurora">
-            <div class="front hidden">
-                <img src="images/princess aurora.jpg"/>
+            <div class="card" data-card-name="aurora">
+                <div class="front hidden">
+                    <img src="images/princess aurora.jpg"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
 
-        <div class="card" data-card-name="princess">
-            <div class="front hidden">
-                <img src="images/Princess.png"/>
+            <div class="card" data-card-name="princess">
+                <div class="front hidden">
+                    <img src="images/Princess.png"/>
+                </div>
+                <div class="back" >
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back" >
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="pinkprincess">
-            <div class="front hidden">
-                <img src="images/princess-in-a-pink-dress.png"/>
+            <div class="card" data-card-name="pinkprincess">
+                <div class="front hidden">
+                    <img src="images/princess-in-a-pink-dress.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="snowwhite">
-            <div class="front hidden">
-                <img src="images/Snow White.png"/>
+            <div class="card" data-card-name="snowwhite">
+                <div class="front hidden">
+                    <img src="images/Snow White.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="mulan">
-            <div class="front hidden">
-                <img src="images/Mulan.png"/>
+            <div class="card" data-card-name="mulan">
+                <div class="front hidden">
+                    <img src="images/Mulan.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="ariel">
-            <div class="front hidden">
-                <img src="images/Princess Ariel.png"/>
+            <div class="card" data-card-name="ariel">
+                <div class="front hidden">
+                    <img src="images/Princess Ariel.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="pinkprincess">
-            <div class="front hidden">
-                <img src="images/princess-in-a-pink-dress.png"/>
+            <div class="card" data-card-name="pinkprincess">
+                <div class="front hidden">
+                    <img src="images/princess-in-a-pink-dress.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="princess">
-            <div class="front hidden">
-                <img src="images/Princess.png"/>
+            <div class="card" data-card-name="princess">
+                <div class="front hidden">
+                    <img src="images/Princess.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div> 
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div> 
-        </div>
 
-        <div class="card" data-card-name="mulan">
-            <div class="front hidden">
-                <img src="images/Mulan.png"/>
+            <div class="card" data-card-name="mulan">
+                <div class="front hidden">
+                    <img src="images/Mulan.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="snowwhite">
-            <div class="front hidden">
-                <img src="images/Snow White.png"/>
+            <div class="card" data-card-name="snowwhite">
+                <div class="front hidden">
+                    <img src="images/Snow White.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="aurora">
-            <div class="front hidden">
-                <img src="images/princess aurora.jpg"/>
+            <div class="card" data-card-name="aurora">
+                <div class="front hidden">
+                    <img src="images/princess aurora.jpg"/>
+                </div>
+                <div class="back" >
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back" >
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="belle">
-            <div class="front hidden">
-                <img src="images/Princess Belle.jpg"/>
+            <div class="card" data-card-name="belle">
+                <div class="front hidden">
+                    <img src="images/Princess Belle.jpg"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
-            </div>
-        </div>
 
-        <div class="card" data-card-name="cinderela">
-            <div class="front hidden">
-                <img src="images/Cinderela.png"/>
-            </div>
-            <div class="back">
-                <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+            <div class="card" data-card-name="cinderela">
+                <div class="front hidden">
+                    <img src="images/Cinderela.png"/>
+                </div>
+                <div class="back">
+                    <img src="images/4-2-disney-princesses-picture-thumb.png"/>
+                </div>
             </div>
         </div>
     </div>
