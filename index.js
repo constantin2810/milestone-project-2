@@ -5,7 +5,7 @@ var card2 = null;
 var currentScore = 0;
 var moveCounter = 0;
 var counter = 100;
-var t;
+var time;
 var isTimerOn = false;
 
 document.querySelectorAll('.card').forEach(function(card){
@@ -57,7 +57,7 @@ function unFlipCard(card){
 function countdown(){
     document.getElementById('time-remaining').value = counter;
     counter--;
-    t = setTimeout("countdown()",1000);
+    time = setTimeout("countdown()",1000);
 }
 
 function startMe() {
@@ -66,24 +66,6 @@ function startMe() {
         countdown();
     }
 }
-
-function getminutes() {
-    mins = Math.floor(secs / 60);
-    return mins;
-}
-
-function getseconds() {
-    return secs-Math.round(mins*60)
-}
-
-function startMe(){
-    document.getElementById('time-remaining').value = isTimerOn;
-    if (!isTimerOn){
-        isTimerOn = true;
-        countdown(0);
-    }
-}
-
     
 function updateMoveCounter(){
     document.getElementById('moves').innerText = moveCounter;
