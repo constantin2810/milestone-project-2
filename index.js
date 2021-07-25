@@ -30,7 +30,6 @@ function shuffle(array) {
 }
 
 
-
 function checkForMatch(card1, card2){
     let card1Name = card1.getAttribute('data-card-name');
     let card2Name = card2.getAttribute('data-card-name');

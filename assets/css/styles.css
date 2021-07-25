@@ -4,6 +4,8 @@ h1 {
     font-family:'Bona Nova', serif;
 }
 
+/* style the overlay-text */
+
 .overlay-text {
     position: unset;
     display: none;
