@@ -11,7 +11,7 @@
 
 -   ### This is the main website for my "Milestone Project 2".
 
-  1. It is designed to be responsible and accessible on a range of devices, making it easy to navigate for potential students and partners.
+  1. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential students and partners.
   2. I created a simple memory game using HTML5, CSS3, and Javascript. Users will be able to reveal some images and memorize the location of the picture. 
   3. The purpose of this game is to reveal all the same images.
 
@@ -114,8 +114,9 @@ This Website uses several technlogies & frameworks to deliver its theme, layout 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator$link)
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](http://jigsaw.w3.org/css-validator/validator$link)
 
 ### Testing User Stories from User Experience (UX) Section
 
