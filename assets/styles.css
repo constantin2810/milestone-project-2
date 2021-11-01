@@ -56,7 +56,8 @@ h1 {
     /* transform: rotateY(-180deg); */
 }
 
-.card:hover{
+
+.card:hover {
     cursor: pointer;
 }
 
@@ -126,9 +127,9 @@ html {
 }
 
 body {
+    background-image: url(images/castle1.jpg);
     box-sizing: border-box;
     margin: 0;
-    background-image: url(images/castle1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -164,4 +165,3 @@ footer {
     color: blueviolet;
     position: relative;
 }
-

@@ -9,27 +9,27 @@ var time;
 var isTimerOn = false;
 
 
-document.getElementById('start-game').addEventListener('click',startMe);
+document.getElementById('start-game').addEventListener('click', startMe);
 
 function shuffle(array) {
-    var currentIndex = array.length, randomIndex;
-
-
-    while (0 !== currentIndex){
-
-
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-
-
-        [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex], array[currentIndex]];
+    var currentIndex = array.length,  randomIndex;
+  
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+  
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+  
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] = [
+        array[randomIndex], array[currentIndex]];
     }
-
+  
     return array;
 }
 
- 
+
 function checkForMatch(card1, card2){
     let card1Name = card1.getAttribute('data-card-name');
     let card2Name = card2.getAttribute('data-card-name');
@@ -73,20 +73,20 @@ function unFlipCard(card){
 }
 
 function countdown(){
-
+   
     time = setInterval(function(){
         if (counter > -1){
-            document.getElementById('time-remining').innerText = counter;
+            document.getElementById('time-remaining').innerText = counter;
             counter--;
         }
     }, 1000);
     setTimeout(function(){
         if (currentScore < 8){
-            alert('Time is out,you loose');
+            alert('Time is out, you loose');
             clearInterval(time);
         }
-
-    },101000);
+        
+    }, 101000);
 }
 
 
@@ -94,7 +94,7 @@ function createGameBoard(){
     let gameBoard = document.getElementById('game-board');
     let cardArray = [];
     document.querySelectorAll('.card').forEach(function(card){
-        cardArray.push(card);
+       cardArray.push(card);
     });
     let suffledCardArray = shuffle(cardArray);
     gameBoard.innerHTML = '';
@@ -102,13 +102,13 @@ function createGameBoard(){
         console.log(card.getAttribute('data-card-name'));
         gameBoard.append(card);
         card.addEventListener('click',onCardClicked);
-    });
+     });
 }
 
 
 function startMe() {
     if (!isTimerOn){
-        createGameBoard();
+        createGameBoard()
         isTimerOn = true;
         countdown();
     }
