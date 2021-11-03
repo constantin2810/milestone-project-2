@@ -129,11 +129,13 @@ html {
 body {
     box-sizing: border-box;
     margin: 0;
-    background-image: url(images/castle1.jpg);
+    background-image: url(../images/castle1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-position: center center;
+    b
+   
 }
 
 /* style the page-title */
