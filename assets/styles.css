@@ -99,6 +99,7 @@ h1 {
     font-family: inherit;
     color: purple;
     font-size: 2em;
+    margin-top: auto;
 }
 
 /* there I will style the img to get the right dimension to fit inside the card */
@@ -129,12 +130,11 @@ html {
 body {
     box-sizing: border-box;
     margin: 0;
-    background-image: url(../images/castle1.jpg);
+    background-image: url(../images/Disney3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    b
    
 }
 
@@ -144,6 +144,7 @@ body {
     text-align: center;
     color: purple;
     font-size: 4em;
+    margin-top: auto;
 }
 
 .info {
