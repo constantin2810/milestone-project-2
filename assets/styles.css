@@ -132,7 +132,7 @@ body {
     margin: 0;
     background-image: url(../images/Disney3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover cover;
     background-attachment: fixed;
     background-position: center center;
    
@@ -166,5 +166,5 @@ body {
 footer {
     text-align: center;
     color: blueviolet;
-    position: relative;
+    position: sticky;
 }
