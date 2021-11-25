@@ -10,7 +10,7 @@ var isTimerOn = false;
 
 
 document.getElementById('start-game').addEventListener('click', startMe);
-document.getElementById('restart-game').addEventListener('click', restartMe);
+document.getElementById('reset-game').addEventListener('click', resetMe);
 
 function shuffle(array) {
     var currentIndex = array.length,  randomIndex;
@@ -115,9 +115,12 @@ function startMe() {
     }
 }
 
-function restartMe() {
+function resetMe() {
     if (!isTimeout===currentScore===8){
-        clearInterval(time);   
+        clearInterval(time);
+        clearInterval(moves); 
+        createGameBoard()
+          
     }
 }
     

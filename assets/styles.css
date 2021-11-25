@@ -95,6 +95,8 @@ h1 {
     justify-content: space-between;
 }
 
+/* styls for game-info */
+
 .game-info {
     font-family: inherit;
     color: purple;
@@ -162,6 +164,8 @@ body {
         align-items: center;
     }
 }
+
+/* styling the footer */
 
 footer {
     text-align: center;
