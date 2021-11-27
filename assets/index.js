@@ -36,13 +36,11 @@ function checkForMatch(card1, card2){
     let card2Name = card2.getAttribute('data-card-name');
 
     if (card1Name.localeCompare(card2Name) === 0 ){
-        console.log('Its a match');
         card1.removeEventListener('click', onCardClicked);
         card2.removeEventListener('click', onCardClicked);
         currentScore = currentScore + 1;
     }
     else{
-        console.log('Not a match');
         unFlipCard(card1);
         unFlipCard(card2);
     }
@@ -60,7 +58,6 @@ function checkForWin(){
 
 
 function flipCard(card){
-    console.log(card)
     card.getElementsByClassName('front')[0].classList.remove('hidden');
     card.getElementsByClassName('back')[0].classList.add('hidden');
 }
@@ -100,7 +97,6 @@ function createGameBoard(){
     let suffledCardArray = shuffle(cardArray);
     gameBoard.innerHTML = '';
     suffledCardArray.forEach(function(card){
-        console.log(card.getAttribute('data-card-name'));
         gameBoard.append(card);
         card.addEventListener('click',onCardClicked);
      });
@@ -116,12 +112,19 @@ function startMe() {
 }
 
 function resetMe() {
-    if (!isTimeout===currentScore===8){
-        clearInterval(time);
-        clearInterval(moves); 
-        createGameBoard()
-          
-    }
+    clearInterval(time);
+    currentScore = 0;
+    moveCounter = 0;
+    counter = 100;
+    clickedCard = false;
+    card1 = null;
+    card2 = null;
+    isTimerOn = false;
+    document.getElementById('moves').innerText = moveCounter;
+    document.getElementById('time-remaining').innerText = counter;
+    document.querySelectorAll('.card').forEach(function(card){
+        unFlipCard(card);
+    });
 }
     
 function updateMoveCounter(){
