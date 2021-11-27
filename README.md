@@ -35,7 +35,7 @@
      - https://www.freememorygame.com/?dn=Card%20Game;
      - https://www.memozor.com/memory-games/for-adults/deck-of-cards
 
-<h2 align="center"><![Am I Responsive image of how the landing page looks across different browser sizes](../images/responsive img.png)></h2> 
+![Am I Responsive image of how the landing page looks across different browser sizes](../images/responsive img.png)
 
 ## User Experience (UX)
 
