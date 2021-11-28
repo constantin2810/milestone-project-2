@@ -134,12 +134,18 @@ body {
     margin: 0;
     background-image: url(../images/Disney3.jpg);
     background-repeat: no-repeat;
-    background-size: cover ;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center center;
    
 }
 
+.btn-text-center {
+    text-align: center;
+    position: relative;
+    letter-spacing: 10px;
+    margin-left: 650px;
+}
 /* style the page-title */
 
 .page-title {
@@ -170,6 +176,7 @@ body {
 footer {
     text-align: center ;
     color: blueviolet;
-    position: sticky;
-
+    position: unset;
+    padding: 1%;
+    bottom: 0;
 }
