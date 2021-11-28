@@ -140,12 +140,15 @@ body {
    
 }
 
+/* style the button for a beter look */
+
 .btn-text-center {
     text-align: center;
     position: relative;
     letter-spacing: 10px;
     margin-left: 650px;
 }
+
 /* style the page-title */
 
 .page-title {
