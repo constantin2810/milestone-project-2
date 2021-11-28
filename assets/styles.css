@@ -147,6 +147,13 @@ body {
     position: relative;
     letter-spacing: 10px;
     margin-left: 650px;
+
+}
+
+.description {
+    text-align: center;
+    color:purple;
+    margin-left: 160px;
 }
 
 /* style the page-title */
