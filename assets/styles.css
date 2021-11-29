@@ -127,6 +127,7 @@ h1 {
 
 html {
     min-height: 80vh;
+    overflow-x: hidden;
 }
 
 body {
@@ -137,6 +138,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center center; 
+    overflow-x: hidden;
 }
 
 
@@ -192,4 +194,8 @@ footer {
     position: unset;
     padding: 1%;
     bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
 }
