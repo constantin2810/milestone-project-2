@@ -59,7 +59,7 @@
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
     -    ### Wireframes
-    -    Mobile, Tablet, and Desktop wireframes are all available [here.](wireframes/wireframes2.pdf)
+    -    Mobile, Tablet, and Desktop wireframes are all available [here.](wireframes/wireframe1.pdf)
 -   ### Design
     -   #### Colour Scheme
         -   The main colours used are blue-blueviolet and pink.
