@@ -44,19 +44,28 @@
     -   #### First Time Visitor Goals
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
+        - a. Upon entering the site, users are automatically greeted with an easily readable game menu.
+        - b. The main points are made immediately with the background image.
+        - c. The user has two options, click the START GAME buttons or scroll down to learn more about the game from Game Rules.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+        - a. The site has been designed to be fluid and never to entrap the user. 
+        - b. Each link describes what the page they will end up at clearly.
         3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
-
+        - The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
     -   #### Returning Visitor Goals
 
         1. As a Returning Visitor, I want to find information about coding challenges.
         2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
         3. As a Returning Visitor, I want to find community links.
+        - The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
+        - The user would already be comfortable with the website layout.
         2. As a Frequent User, I want to check to see if there are any new blog posts.
+        - The user would already be comfortable with the website layout and can easily click the blog link.
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        - At the bottom of every page their is a footer which content is consistent throughout all pages.
 
     -    ### Wireframes
     -    Mobile, Tablet, and Desktop wireframes are all available [here.](wireframes/wireframe1.pdf)
@@ -119,55 +128,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [Nu Html Checker](https://validator.w3.org/nu/) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fconstantin2810.github.io%2Fmilestone-project-2%2Findex.html)
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fconstantin2810.github.io%2Fmilestone-project-2%2Fassets%2Fstyles.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-
-### Testing User Stories from User Experience (UX) Section
-
--   #### First Time Visitor Goals
-
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
-
-      Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Image with Text "Charity running".
-        
-        
-
-    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
-
-        The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
-        On the Contact Us Page, after a form response is submitted, the page refreshes and the user is brought to the top of the page where the navigation bar is.
-
-
--   #### Returning Visitor Goals
-
-    1. As a Returning Visitor, I want to find the new programming challenges or hackathons.
-
-        1. These are clearly shown in the banner message.
-        2. They will be directed to a page with another hero image and call to action.
-
-    2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-
-        1. The navigation bar clearly highlights the "Contact Us" Page.
-        2. Here they can fill out the form on the page or are told that alternatively they can message the organisation on social media.
-        3. The footer contains links to the organisations Facebook, Twitter and Instagram page as well as the organization's email.
-        4. Whichever link they click, it will be open up in a new tab to ensure the user can easily get back to the website.
-        5. The email button is set up to automatically open up your email app and autofill there email address in the "To" section.
-
-    3. As a Returning Visitor, I want to find the Facebook Group link so that I can join and interact with others in the community.
-         The Facebook Page can be found at "Join Now" page and will open a new tab for the user and more information can be found on the Facebook page.   
-
--   #### Frequent User Goals
-
-    1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-
-        1. The user would already be comfortable with the website layout and can easily click the banner message.
-
-    2. As a Frequent User, I want to check to see if there are any new blog posts.
-
-        1. The user would already be comfortable with the website layout and can easily click the blog link
-
-    3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
-        1. At the bottom of every page their is a footer which content is consistent throughout all pages.
-        2. To the right hand side of the footer the user can see "Subscribe to our Newsletter" and are prompted to Enter their email address.
-        3. There is a "Submit" button to the right hand side of the input field which is located close to the field and can easily be distinguished.
 
 ### Further Testing
 
@@ -241,7 +201,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Tutor support at Code Institute for their support.
 
--     THANK YOU all for your support.
+- THANK YOU all for your support.
 
 
 
